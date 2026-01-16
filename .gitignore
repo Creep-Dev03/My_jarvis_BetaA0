@@ -1,2 +1,22 @@
+# --- Archivos pesados y datos ---
 data/
+*.gguf
+*.wav
+*.mp3
+
+# --- Python ---
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+
+# --- Configuración de VS Code ---
+.vscode/
+
+# --- Variables de entorno y secretos :p ---
+.env
